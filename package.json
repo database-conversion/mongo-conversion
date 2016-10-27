@@ -1,0 +1,33 @@
+{
+  "name": "mongoconversion",
+  "version": "1.0.0",
+  "description": "Conversion/migration of mongo db to sql databases using only the basic configurations for mongo db location and destination",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/database-conversion/mongo-conversion.git"
+  },
+  "keywords": [
+    "mongo",
+    "migration",
+    "conversion",
+    "migrate",
+    "mongo",
+    "migration",
+    "sql",
+    "mysql"
+  ],
+  "author": "Zain Aftab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/database-conversion/mongo-conversion/issues"
+  },
+  "homepage": "https://github.com/database-conversion/mongo-conversion#readme",
+  "dependencies": {
+    "mongodb": "^2.2.11",
+    "mysql": "^2.11.1"
+  }
+}
